@@ -57,3 +57,35 @@ body {
     margin-left: 20px;
   }
 }
+
+.input-list {
+  text-align: center;
+  margin-top: 5%;
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    color: #fff;
+    font-family: $flower;
+    font-size: 28px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ffff;
+    cursor: pointer;
+  }
+  button {
+    cursor: pointer;
+    font-size: 16px;
+    font-family: $poppins;
+    background: none;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    &:hover {
+      color: #dff9fb;
+      transition: ease-in;
+    }
+  }
+}
