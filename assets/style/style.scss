@@ -1,0 +1,59 @@
+$poppins: "Poppins", sans-serif;
+$flower: "Indie Flower", cursive;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  text-align: center;
+  box-shadow: 10px 20px 5px #dff9fb;
+  background-color: #dff9fb;
+  width: 100%;
+  margin: auto;
+  h1 {
+    font-family: $flower;
+    font-size: 4em;
+    span {
+      color: #2980b9;
+    }
+  }
+}
+
+.input-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  input {
+    font-family: $poppins;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px 5px 20px;
+  }
+  button {
+    font-family: $poppins;
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+}
